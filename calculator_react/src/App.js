@@ -11,7 +11,7 @@ function App() {
       <button>DEl</button>
       <button>➗</button>
       <button>1</button>
-      <button>➗</button>
+      <button>2</button>
       <button>➗</button>
       <button>➗</button>
       <button>➗</button>
