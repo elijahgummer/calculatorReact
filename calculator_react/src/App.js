@@ -10,7 +10,7 @@ function App() {
       <button className="span-two">AC</button>
       <button>DEl</button>
       <button>➗</button>
-      <button>➗</button>
+      <button>1</button>
       <button>➗</button>
       <button>➗</button>
       <button>➗</button>
