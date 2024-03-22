@@ -1,7 +1,7 @@
 import {useReducer} from "react";
 import "./styles.css";
 
-function reducer(state, action) {
+function reducer(state, {type, payload}) {
 
 }
 
