@@ -6,3 +6,10 @@ body {
     margin: 0;
     background: linear-gradient(to right, #2193b0, #6dd5ed);
 }
+
+.calculator-grid {
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: repeat(4, 6rem);
+    grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+}
