@@ -10,6 +10,7 @@ body {
 .calculator-grid {
     display: grid;
     margin-top: 2rem;
+    justify-content: center;
     grid-template-columns: repeat(4, 6rem);
     grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
 }
@@ -20,6 +21,11 @@ body {
     border: 1px solid #ffffff;
     outline: none;
     background-color: rgba(255, 255, 255, .75);
+}
+
+.calculator-grid > button:hover,
+.calculator-grid > button::focus {
+    background-color: rgba(255, 255, 255, .9);
 }
 
 .span-two {
