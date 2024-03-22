@@ -1,6 +1,11 @@
 import "./styles.css";
 
+function reducer(state, action) {
+
+}
+
 function App() {
+  const [state, dipatch] = useReducer(reducer, {})
   return (
     <div className="calculator-grid">
       <div className="output">
