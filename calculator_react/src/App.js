@@ -1,4 +1,5 @@
 import {useReducer} from "react";
+import DigitButton from "./DigitButton";
 import "./styles.css";
 
 export const ACTIONS = {
@@ -31,6 +32,7 @@ function App() {
       </div>
       <button className="span-two">AC</button>
       <button>DEl</button>
+      <DigitButton digit={"➗"} dispatch={dispatch} />
       <button>➗</button>
       <button>1</button>
       <button>2</button>
