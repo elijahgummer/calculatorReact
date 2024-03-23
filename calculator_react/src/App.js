@@ -5,6 +5,7 @@ const ACTIONS = {
   ADD_DIGIT: 'add-digit',
   CLEAR: 'clear',
   DELETE: 'delete-digit',
+  EVALUATE: 'evaluate'
 }
 
 function reducer(state, {type, payload}) {
