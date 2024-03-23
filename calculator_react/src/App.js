@@ -4,7 +4,7 @@ import "./styles.css";
 const ACTIONS = {
   ADD_DIGIT: 'add-digit',
   CLEAR: 'clear',
-  
+  DELETE: 'delete-digit',
 }
 
 function reducer(state, {type, payload}) {
