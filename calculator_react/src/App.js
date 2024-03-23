@@ -1,6 +1,10 @@
 import {useReducer} from "react";
 import "./styles.css";
 
+const ACTIONS = {
+  ADD_DIGIT: 'add-digit',
+}
+
 function reducer(state, {type, payload}) {
 
 }
