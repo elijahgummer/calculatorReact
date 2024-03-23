@@ -3,6 +3,8 @@ import "./styles.css";
 
 const ACTIONS = {
   ADD_DIGIT: 'add-digit',
+  CLEAR: 'clear',
+  
 }
 
 function reducer(state, {type, payload}) {
