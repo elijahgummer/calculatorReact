@@ -10,7 +10,10 @@ const ACTIONS = {
 }
 
 function reducer(state, {type, payload}) {
-
+  switch(type) {
+    case ACTIONS.ADD_DIGIT:
+      return state
+  }
 }
 
 function App() {
