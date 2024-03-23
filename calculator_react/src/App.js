@@ -1,7 +1,7 @@
 import {useReducer} from "react";
 import "./styles.css";
 
-const ACTIONS = {
+export const ACTIONS = {
   ADD_DIGIT: 'add-digit',
   CHOOSE_OPERATION: 'choose-operation',
   CLEAR: 'clear',
